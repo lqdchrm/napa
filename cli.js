@@ -65,7 +65,7 @@ napa.args = function (str) {
     name = url.slice(url.lastIndexOf('/') + 1)
   }
 
-  return [napa.url(url), name, napa.getref(str)]
+  return [napa.url(url), name, napa.getref(url)]
 }
 
 napa.url = function (url) {
